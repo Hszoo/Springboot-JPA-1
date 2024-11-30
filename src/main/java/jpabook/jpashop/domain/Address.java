@@ -8,7 +8,7 @@ import lombok.Getter;
 public class Address { // 값 타입은 변경 불가능하게 설계 -> Setter X
     private String city;
     private String street;
-    private String zipCocde;
+    private String zipcode;
 
     protected Address() {
     }
@@ -16,6 +16,6 @@ public class Address { // 값 타입은 변경 불가능하게 설계 -> Setter 
     public Address(String city, String street, String zipCocde) { // 값의 초기화도 생성자를 통해서
         this.city = city;
         this.street = street;
-        this.zipCocde = zipCocde;
+        this.zipcode = zipCocde;
     }
 }
